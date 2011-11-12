@@ -3,6 +3,9 @@ call pathogen#infect()
 " file settings
 set encoding=utf-8
 
+" color settings
+colorscheme zenburn
+
 " code editing settings
 syntax on
 filetype on
