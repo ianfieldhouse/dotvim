@@ -4,4 +4,4 @@ Installation:
 
 Create symlinks:
 
-	ln -s ~/Dropbox/dotfiles/vimrc ~/.vimrc
+	ln -s ~/.vim/vimrc ~/.vimrc
