@@ -1,5 +1,10 @@
 call pathogen#infect()
 
+" hide macvim toolbar
+if has("gui_running")
+    set guioptions-=T
+endif
+
 " file settings
 set encoding=utf-8
 
