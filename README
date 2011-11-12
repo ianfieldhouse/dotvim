@@ -1,0 +1,7 @@
+Installation:
+	
+	git clone git://github.com/ianfieldhouse/dotvim.git ~/.vim
+
+Create symlinks:
+
+	ln -s ~/Dropbox/dotfiles/vimrc ~/.vimrc
