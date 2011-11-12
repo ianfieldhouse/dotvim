@@ -1,6 +1,24 @@
 call pathogen#infect()
+
+" file settings
+set encoding=utf-8
+
+" code editing settings
 syntax on
+filetype on
+filetype plugin on
 filetype plugin indent on
+set number
+set numberwidth=5
+set expandtab
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+
+" search settings
+set hlsearch
+set incsearch
 
 " NERDTree settings
 map ± :execute 'NERDTreeToggle ' . getcwd()<CR>
