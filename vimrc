@@ -20,6 +20,9 @@ set autoindent
 set hlsearch
 set incsearch
 
+" Command-t settings
+map T :CommandT<CR>
+
 " NERDTree settings
 map ± :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeShowBookmarks=1
