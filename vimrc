@@ -35,6 +35,9 @@ set listchars=tab:▸\ ,eol:¬
 set hlsearch
 set incsearch
 
+" autocomplete settings
+au FileType python set omnifunc=pythoncomplete#Complete
+
 " Ack settings
 nmap <leader>a <Esc>:Ack! 
 
@@ -55,6 +58,10 @@ let NERDTreeHighlightCursorline=1
 
 " pep8 settings
 let g:pep8_map='<leader>8'
+
+" supertab settings
+let g:SuperTabDefaultCompletionType = "context"
+set completeopt=menuone,longest,preview
 
 " surround settings 
 " - mappings for django templates
