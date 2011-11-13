@@ -7,6 +7,10 @@ endif
 
 " file settings
 set encoding=utf-8
+set nobackup
+set noswapfile
+set wildignore+=*.pyc
+set printoptions=paper:A4,duplex:off,portrait:n,number:y,wrap:y
 
 " color settings
 colorscheme zenburn
