@@ -38,6 +38,12 @@ set incsearch
 " Command-t settings
 map T :CommandT<CR>
 
+" miniBufExpl settings
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+
 " NERDTree settings
 map ± :execute 'NERDTreeToggle ' . getcwd()<CR>
 let NERDTreeShowBookmarks=1
