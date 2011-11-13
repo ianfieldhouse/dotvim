@@ -13,3 +13,6 @@
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
