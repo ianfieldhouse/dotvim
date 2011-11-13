@@ -53,6 +53,9 @@ let NERDTreeShowBookmarks=1
 let NERDTreeQuitOnOpen=1
 let NERDTreeHighlightCursorline=1
 
+" pep8 settings
+let g:pep8_map='<leader>8'
+
 " surround settings 
 " - mappings for django templates
 let g:surround_{char2nr("b")} = "{% block\1 \r..*\r &\1 %}\r{% endblock %}"
