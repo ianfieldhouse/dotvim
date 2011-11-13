@@ -35,6 +35,9 @@ set listchars=tab:▸\ ,eol:¬
 set hlsearch
 set incsearch
 
+" Ack settings
+nmap <leader>a <Esc>:Ack! 
+
 " Command-t settings
 map T :CommandT<CR>
 
