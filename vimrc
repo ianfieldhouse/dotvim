@@ -77,3 +77,12 @@ let g:surround_{char2nr("{")} = "{{ \r }}"
 
 " tasklist settings
 map <F1> :TaskList<CR>
+
+" remove trailing whitespace
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+autocmd BufWritePre *.py :call <SID>StripTrailingWhitespaces()
