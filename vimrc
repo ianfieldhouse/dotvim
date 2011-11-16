@@ -36,6 +36,9 @@ set hlsearch
 set incsearch
 
 " autocomplete settings
+au FileType html set omnifunc=htmlcomplete#CompleteTags
+au FileType css set omnifunc=csscomplete#CompleteCSS
+au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 au FileType python set omnifunc=pythoncomplete#Complete
 
 " Ack settings
