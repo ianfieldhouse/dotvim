@@ -86,3 +86,6 @@ fun! <SID>StripTrailingWhitespaces()
     call cursor(l, c)
 endfun
 autocmd BufWritePre *.py :call <SID>StripTrailingWhitespaces()
+
+" close doc buffer that omnicomplete shows when leaving Insert mode
+au InsertLeave * if pumvisible() == 0|pclose|endif
