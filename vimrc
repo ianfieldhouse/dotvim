@@ -10,26 +10,31 @@ set encoding=utf-8
 set nobackup
 set noswapfile
 set wildignore+=*.pyc
-set printoptions=paper:A4,duplex:off,portrait:n,number:y,wrap:y
-
-" color settings
-colorscheme zenburn
-set colorcolumn=80
+set printoptions=paper:a4,duplex:off,portrait:n,number:y,wrap:y
 
 " code editing settings
-syntax on
 filetype on
 filetype plugin on
 filetype plugin indent on
-set number
-set numberwidth=5
-set expandtab
-set tabstop=8
-set softtabstop=4
-set shiftwidth=4
 set autoindent
+set colorcolumn=80
+set cursorline
+set expandtab
 set list
 set listchars=tab:▸\ ,eol:¬
+set number
+set numberwidth=5
+set softtabstop=4
+set shiftwidth=4
+set tabstop=8
+syntax on
+
+" color settings
+colorscheme zenburn
+highlight CursorLine ctermbg=234 ctermfg=None
+highlight Visual ctermbg=53
+au InsertEnter * highlight CursorLine ctermbg=23 ctermfg=None
+au InsertLeave * highlight CursorLine ctermbg=234 ctermfg=None
 
 " search settings
 set hlsearch
