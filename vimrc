@@ -46,6 +46,9 @@ au FileType css set omnifunc=csscomplete#CompleteCSS
 au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 au FileType python set omnifunc=pythoncomplete#Complete
 
+" Tagbar settings
+nmap <F2> :TagbarToggle<CR>
+
 " Ack settings
 nmap <leader>a <Esc>:Ack! 
 
