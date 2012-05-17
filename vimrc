@@ -39,6 +39,7 @@ au InsertLeave * highlight CursorLine ctermbg=234 ctermfg=None
 " search settings
 set hlsearch
 set incsearch
+nnoremap <F3> :set hlsearch!<CR>
 
 " autocomplete settings
 au FileType html set omnifunc=htmlcomplete#CompleteTags
