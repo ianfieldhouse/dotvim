@@ -34,6 +34,9 @@
 [submodule "bundle/pyflakes-pathogen"]
 	path = bundle/pyflakes-pathogen
 	url = git://github.com/mitechie/pyflakes-pathogen.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git

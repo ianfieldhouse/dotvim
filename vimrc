@@ -47,6 +47,9 @@ au FileType css set omnifunc=csscomplete#CompleteCSS
 au FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 au FileType python set omnifunc=pythoncomplete#Complete
 
+" Powerline settings
+let g:Powerline_symbols = 'fancy'
+
 " Tagbar settings
 nmap <F2> :TagbarToggle<CR>
 
