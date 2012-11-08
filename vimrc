@@ -74,6 +74,9 @@ let NERDTreeHighlightCursorline=1
 " pep8 settings
 let g:pep8_map='<leader>8'
 
+" pyflakes settings
+let g:pyflakes_use_quickfix = 0
+
 " supertab settings
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
