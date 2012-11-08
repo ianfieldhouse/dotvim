@@ -107,3 +107,5 @@ autocmd BufWritePre *.py :call <SID>StripTrailingWhitespaces()
 
 " close doc buffer that omnicomplete shows when leaving Insert mode
 au InsertLeave * if pumvisible() == 0|pclose|endif
+
+au FileType crontab set nobackup nowritebackup
