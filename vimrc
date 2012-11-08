@@ -29,6 +29,9 @@ set shiftwidth=4
 set tabstop=8
 syntax on
 
+" set tags
+set tags=../.tags
+
 " color settings
 colorscheme zenburn
 highlight CursorLine ctermbg=234 ctermfg=None
