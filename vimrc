@@ -80,6 +80,9 @@ let g:pep8_map='<leader>8'
 " pyflakes settings
 let g:pyflakes_use_quickfix = 0
 
+" snipMate settings
+let snips_author="Ian Fieldhouse"
+
 " supertab settings
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
