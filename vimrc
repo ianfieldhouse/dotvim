@@ -62,6 +62,9 @@ nmap <leader>a <Esc>:Ack!
 " Command-t settings
 map T :CommandT<CR>
 
+" Gundo settings
+nnoremap <F5> :GundoToggle<CR>
+
 " miniBufExpl settings
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
