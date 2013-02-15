@@ -23,6 +23,7 @@ set expandtab
 set list
 set listchars=tab:▸\ ,eol:¬
 set number
+set mouse=a
 set numberwidth=5
 set softtabstop=4
 set shiftwidth=4
